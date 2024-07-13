@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    margin-top: 50px;
+    margin-top: 20%;
 }
 
 h1 {
@@ -40,11 +40,13 @@ h1 {
 }
 
 .links-list li {
-    display: inline;
+    display: inline-block;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 a {
-    color: #61dafb;
+    color: #076134;
     text-decoration: none;
     font-size: 1.2em;
     display: flex;
@@ -53,7 +55,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #21a1f1;
+    color: #076134a6;
     text-decoration: underline;
 }
 
@@ -85,14 +87,6 @@ p {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelop:before {
-    content: "\e945";
-}
-
 .icon-github:before {
     content: "\eab0";
-}
-
-.icon-stackoverflow:before {
-    content: "\ead0";
 }
