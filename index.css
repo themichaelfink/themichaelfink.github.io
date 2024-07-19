@@ -1,5 +1,4 @@
 html, body {
-    height: 100%;
     margin: 0;
     background: #1e1e1e;
     color: #dcdcdc;
@@ -19,7 +18,7 @@ header {
 
 h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .introduction {
@@ -60,28 +59,28 @@ a:hover, a:focus {
 }
 
 p {
-    margin: 0 0 10px;
+    margin: 5px 5px 10px;
 }
 
-.avatar-container {
+.pic-container {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 }
 
-.avatar {
-    max-width: 100%;
+.pic {
+    max-width: 90%;
     height: auto;
 }
 
 @media(max-width:375px) {
-    .avatar {
+    .pic {
         width: 90%;
     }
 }
 
 @media(min-width:768px) {
-    .avatar {
+    .pic {
         width: 80%;
     }
 }
